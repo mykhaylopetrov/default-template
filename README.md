@@ -9,3 +9,4 @@ Default HTML | CSS template -- v.1.0.0
 - Default "Popins" fonts
 - Responsive dropdown burger menu with sub menu
 - Default Hero section background image (https://ru.freepik.com/free-photo/grunge-texture-with-black-ink_13981821.htm)
+- jQuery 3.7.1
