@@ -15,6 +15,11 @@ body {
 	color: #646d70;
 }
 
+section:not(.hero) {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 .menu-open body {
 	overflow: hidden;
 }
