@@ -470,3 +470,17 @@ body {
 }
 
 /* ./HERO */
+
+/* FOOTER */
+
+.footer {
+	background-color: #3b3b3b;
+}
+
+.footer__body {
+	display: flex;
+	align-items: center;
+	min-height: 70px;
+}
+
+/* ./FOOTER */
