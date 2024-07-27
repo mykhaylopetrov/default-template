@@ -4,6 +4,8 @@
 	--mobile-menu-background-color: #3f57c6;
 	--scroll-header-background-color: #3b3b3b;
 	--hero-section-default-background-color: #1C1E53;
+	--default-main-color: #646d70;
+
 	--global-container-max-width: 1170px;
 	--default-font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,7 +14,7 @@
 
 body {
 	font-family: 'Poppins-Regular', Helvetica, Arial, sans-serif;
-	color: #646d70;
+	color: var(--default-main-color);
 }
 
 section:not(.hero) {
@@ -58,6 +60,12 @@ section:not(.hero) {
 	.btn {
 		padding: 10px 10px;
 	}
+}
+
+.btn--contact-us {
+	/* padding: 16px 48px;
+	border: 2px solid rgba(244, 246, 252, 0.2);
+	border-radius: 41px; */
 }
 
 /* HEADER */
