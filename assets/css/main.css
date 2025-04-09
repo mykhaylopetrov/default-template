@@ -107,6 +107,11 @@ section:not(.hero) {
 .header__menu > ul > li {
 	display: inline-block;
 }
+@media (min-width: 992px) {
+	.header__menu > ul > li {
+		padding: 24px 0px;
+	}
+}
 
 .header__menu > ul > li:not(:last-child) {
 	margin-right: 40px;
@@ -125,8 +130,10 @@ section:not(.hero) {
 	display: block;
 }
 
-.header__menu > ul > li > a {
-	padding: 24px 0px;
+@media (max-width: 991.98px) {
+	.header__menu > ul > li > a {
+		padding: 24px 0px;
+	}
 }
 
 .header__menu > ul > .dropdown > a {
@@ -202,12 +209,28 @@ section:not(.hero) {
 	padding-right: 34px;
 }
 
+@media (min-width: 992px) {
+	.header__menu > ul > li > a {
+		background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+		background-size: 0 1px;
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+		transition: background-size 0.5s ease;
+	}
+}
+
 .header__menu .sub-menu span {
 	background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
 	background-size: 0 1px;
 	background-repeat: no-repeat;
 	background-position: 0 100%;
 	transition: background-size 0.5s ease;
+}
+
+@media (min-width: 992px) {
+	.header__menu > ul > li:hover > a {
+		background-size: 100% 1px;
+	}
 }
 
 .header__menu .sub-menu li:hover > a > span {
