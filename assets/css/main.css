@@ -61,6 +61,11 @@ section:not(.hero) {
 		padding: 10px 10px;
 	}
 }
+@media (max-width: 399.98px) {
+	.btn {
+		padding: 5px 5px;
+	}
+}
 
 .btn--contact-us {}
 
